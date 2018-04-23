@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   
   get 'investing/index'
   get 'investing/view'
+  get 'investing/newscrawling'
+  get 'investing/korea'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
